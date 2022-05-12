@@ -4,9 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Regex Validator</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <h1>Regex Validator</h1>
+    <form action="">
+        <div>
+            <input type="text" name = "name" placeholder="username">
+            <p>Username must be alphanumeric and contain 3 - 12 characters</p>
+        </div>
+        <div>
+            <input type="text" name = "email" placeholder="email">
+            <p>Email must be valid address (eg johndoe@domain.com)</p>
+        </div>
+        <div>
+            <input type="text" name = "number" placeholder="number">
+            <p>Telephone must be valid Ug telephone number (10 digits)</p>
+        </div>
+        <div>
+            <input type="password" name = "password" placeholder="password">
+            <p>Password must be alphanumeric and must contain at least one special key (eg Password@123)</p>
+        </div>
+        <div><button>Submit</button></div>
+    </form>
 </body>
 </html>
