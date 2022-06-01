@@ -1,8 +1,7 @@
 ## Regex Validator
 
 # Target of the project
-
-This project was to help me practice regular expressions in a real application
+Regular expressions can be a bit confusing concept, this project was to help me practice regular expressions in a real simple application
 
 # Technologies
 
